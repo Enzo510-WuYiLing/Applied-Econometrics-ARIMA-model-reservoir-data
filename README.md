@@ -13,7 +13,7 @@
 
 ### ARIMA模型建立
 #### Step 1：unit root test
-        * 在使用ARIMA model或是其他計量時間序列模型都需要確認資料是否存在單根後才能進行模型建立，否則模型會呈現「spurious result」。
+* 在使用ARIMA model或是其他計量時間序列模型都需要確認資料是否存在單根後才能進行模型建立，否則模型會呈現「spurious result」。
 
 #### Step 2：Parameter Selection
 ##### 在模型建立這個部分，我嘗試了兩個參數挑選的方式建立模型；分別為

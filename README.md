@@ -25,4 +25,4 @@
 
 
 ### 延伸討論：Application of autocorrelation function on LSTM
-* autocorrelation function選擇參數的方式亦可推廣至LSTM模型中選擇其rolling window length，因為LSTM就是一個 generalized AR model in NN frame work
+* autocorrelation function選擇參數的方式亦可推廣至LSTM模型中選擇其rolling window length，因為LSTM就是一個 generalized AR model in LSTM frame work

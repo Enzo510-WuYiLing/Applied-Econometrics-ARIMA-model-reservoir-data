@@ -4,8 +4,8 @@
 ## 內容分為以下幾個部分：
 
 ### 1. 資料整理與探勘
-      + heatmap
-      + time-trend plot
+      - heatmap
+      - time-trend plot
 ### 2.  問題討論
 > 水庫有效蓄水量是「存量」，但降雨量以及集水區流入、流出皆為「流量」。因此在上方圖示的呈現可能恰當，所以將「有效蓄水量」改為「蓄水變化量」在重複以上步驟觀察變數上的關係。
 
@@ -17,7 +17,7 @@
 
 #### Step 2：Parameter Selection
 ##### 在模型建立這個部分，我嘗試了兩個參數挑選的方式建立模型；分別為
-1. Python 套件 `'pmdarima.auto_arima'`
+1. Python 套件 `pmdarima.auto_arima`
 2. 計量時間序列分析: autocorrelation and partial autocorrelation functions
 
 #### 模型比較

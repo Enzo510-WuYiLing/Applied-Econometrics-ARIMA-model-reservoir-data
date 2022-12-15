@@ -13,13 +13,13 @@
 
 ### ARIMA模型建立
 #### Step 1：unit root test
-        + 在使用ARIMA model或是其他計量時間序列模型都需要確認資料是否存在單根後才能進行模型建立，否則模型會呈現「spurious result」。
+        *在使用ARIMA model或是其他計量時間序列模型都需要確認資料是否存在單根後才能進行模型建立，否則模型會呈現「spurious result」。
 
 #### Step 2：Parameter Selection
 ##### 在模型建立這個部分，我嘗試了兩個參數挑選的方式建立模型；分別為
 
-      1. Python 套件 `pmdarima.auto_arima`
-      2. 計量時間序列分析: autocorrelation and partial autocorrelation functions
+      **Python 套件 ` pmdarima.auto_arima`
+      **計量時間序列分析: autocorrelation and partial autocorrelation functions
 
 #### 模型比較
 ##### 透過兩個不同參數挑選方法建立的ARIMA模型，再以MSE為模型比較 依據，我們可以發現以「計量時間序列分析」此方法挑選參數而建構出的模型表現優於透過套件挑選參數的模型。
